@@ -1,0 +1,11 @@
+# Versions below are the "tested versions" listed in the repo README.
+qiskit==2.6.0
+qiskit-machine-learning==0.9.1
+scikit-learn==1.6.1
+numpy==2.1.3
+scipy==1.16.3
+matplotlib==3.10.0
+# TODO: pin these two with the versions from your own environment (run: pip freeze | grep -i -E "pylatexenc|notebook")
+# They are used by the notebook but the README lists no tested version for them.
+pylatexenc
+notebook
